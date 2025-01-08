@@ -10,7 +10,7 @@ import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.Objects;
 
-class main {
+class FileManager {
     interface DeleteHandlerCallback {
         void done(boolean result);
     }
