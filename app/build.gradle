@@ -33,6 +33,7 @@ dependencies {
     implementation libs.appcompat
     implementation libs.material
 
+    implementation project(":FileManager")
 
 
     testImplementation libs.junit
